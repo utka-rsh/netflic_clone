@@ -1,0 +1,36 @@
+.navbar{
+    position: fixed;
+     top: 0;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 5px;
+
+    /* animation */
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+
+
+}
+
+
+.nav__black{
+    background-color: #111;
+}
+
+.navbar__logo{
+    padding: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+.navbar__account{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+    /* margin-right: 15px; */
+}
